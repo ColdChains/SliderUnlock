@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184C3B0D2861C46500A7453C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C3B0C2861C46500A7453C /* AppDelegate.m */; };
+		184C3B102861C46500A7453C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C3B0F2861C46500A7453C /* SceneDelegate.m */; };
+		184C3B132861C46500A7453C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C3B122861C46500A7453C /* ViewController.m */; };
+		184C3B162861C46500A7453C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C3B142861C46500A7453C /* Main.storyboard */; };
+		184C3B182861C46700A7453C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C3B172861C46700A7453C /* Assets.xcassets */; };
+		184C3B1B2861C46700A7453C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C3B192861C46700A7453C /* LaunchScreen.storyboard */; };
+		184C3B1E2861C46700A7453C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C3B1D2861C46700A7453C /* main.m */; };
+		184C3B292861C5C000A7453C /* LCSliderUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C3B262861C5C000A7453C /* LCSliderUnlockView.m */; };
+		184C3B2A2861C5C000A7453C /* LCSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C3B272861C5C000A7453C /* LCSliderView.m */; };
+		6A89F77FCD80FBBF2D760ADE /* Pods_LCSliderUnlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFB83B718566F7976DEECBA /* Pods_LCSliderUnlock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034E2A13FF845D9535A0618D /* Pods-QLSliderUnlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLSliderUnlock.debug.xcconfig"; path = "Target Support Files/Pods-QLSliderUnlock/Pods-QLSliderUnlock.debug.xcconfig"; sourceTree = "<group>"; };
+		17F3D0680F43C39A2A489478 /* Pods-QLSliderUnlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLSliderUnlock.release.xcconfig"; path = "Target Support Files/Pods-QLSliderUnlock/Pods-QLSliderUnlock.release.xcconfig"; sourceTree = "<group>"; };
+		184C3B082861C46500A7453C /* LCSliderUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCSliderUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C3B0B2861C46500A7453C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184C3B0C2861C46500A7453C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184C3B0E2861C46500A7453C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		184C3B0F2861C46500A7453C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		184C3B112861C46500A7453C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184C3B122861C46500A7453C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184C3B152861C46500A7453C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184C3B172861C46700A7453C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184C3B1A2861C46700A7453C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184C3B1C2861C46700A7453C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C3B1D2861C46700A7453C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184C3B252861C5C000A7453C /* LCSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSliderView.h; sourceTree = "<group>"; };
+		184C3B262861C5C000A7453C /* LCSliderUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSliderUnlockView.m; sourceTree = "<group>"; };
+		184C3B272861C5C000A7453C /* LCSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSliderView.m; sourceTree = "<group>"; };
+		184C3B282861C5C000A7453C /* LCSliderUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSliderUnlockView.h; sourceTree = "<group>"; };
+		185C5354A0B4FFAC25AA1FC6 /* Pods-LCSliderUnlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCSliderUnlock.debug.xcconfig"; path = "Target Support Files/Pods-LCSliderUnlock/Pods-LCSliderUnlock.debug.xcconfig"; sourceTree = "<group>"; };
+		1BFB83B718566F7976DEECBA /* Pods_LCSliderUnlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCSliderUnlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590C67E767893840ACCAE49C /* Pods-LCSliderUnlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCSliderUnlock.release.xcconfig"; path = "Target Support Files/Pods-LCSliderUnlock/Pods-LCSliderUnlock.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184C3B052861C46500A7453C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A89F77FCD80FBBF2D760ADE /* Pods_LCSliderUnlock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184C3AFF2861C46500A7453C = {
+			isa = PBXGroup;
+			children = (
+				184C3B0A2861C46500A7453C /* LCSliderUnlock */,
+				184C3B092861C46500A7453C /* Products */,
+				A54F00CD68DC7BD16F6468F6 /* Pods */,
+				D17CE9F25316990CE2026887 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184C3B092861C46500A7453C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184C3B082861C46500A7453C /* LCSliderUnlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184C3B0A2861C46500A7453C /* LCSliderUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				184C3B0B2861C46500A7453C /* AppDelegate.h */,
+				184C3B0C2861C46500A7453C /* AppDelegate.m */,
+				184C3B0E2861C46500A7453C /* SceneDelegate.h */,
+				184C3B0F2861C46500A7453C /* SceneDelegate.m */,
+				184C3B112861C46500A7453C /* ViewController.h */,
+				184C3B122861C46500A7453C /* ViewController.m */,
+				184C3B242861C5C000A7453C /* LCSliderUnlock */,
+				184C3B142861C46500A7453C /* Main.storyboard */,
+				184C3B172861C46700A7453C /* Assets.xcassets */,
+				184C3B192861C46700A7453C /* LaunchScreen.storyboard */,
+				184C3B1C2861C46700A7453C /* Info.plist */,
+				184C3B1D2861C46700A7453C /* main.m */,
+			);
+			path = LCSliderUnlock;
+			sourceTree = "<group>";
+		};
+		184C3B242861C5C000A7453C /* LCSliderUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				184C3B252861C5C000A7453C /* LCSliderView.h */,
+				184C3B272861C5C000A7453C /* LCSliderView.m */,
+				184C3B282861C5C000A7453C /* LCSliderUnlockView.h */,
+				184C3B262861C5C000A7453C /* LCSliderUnlockView.m */,
+			);
+			path = LCSliderUnlock;
+			sourceTree = "<group>";
+		};
+		A54F00CD68DC7BD16F6468F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				034E2A13FF845D9535A0618D /* Pods-QLSliderUnlock.debug.xcconfig */,
+				17F3D0680F43C39A2A489478 /* Pods-QLSliderUnlock.release.xcconfig */,
+				185C5354A0B4FFAC25AA1FC6 /* Pods-LCSliderUnlock.debug.xcconfig */,
+				590C67E767893840ACCAE49C /* Pods-LCSliderUnlock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D17CE9F25316990CE2026887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB83B718566F7976DEECBA /* Pods_LCSliderUnlock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184C3B072861C46500A7453C /* LCSliderUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184C3B212861C46700A7453C /* Build configuration list for PBXNativeTarget "LCSliderUnlock" */;
+			buildPhases = (
+				109E206BB44F5B65C7E3AA3F /* [CP] Check Pods Manifest.lock */,
+				184C3B042861C46500A7453C /* Sources */,
+				184C3B052861C46500A7453C /* Frameworks */,
+				184C3B062861C46500A7453C /* Resources */,
+				AF5D39C13972057008C220C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCSliderUnlock;
+			productName = QLSliderUnlock;
+			productReference = 184C3B082861C46500A7453C /* LCSliderUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184C3B002861C46500A7453C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					184C3B072861C46500A7453C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 184C3B032861C46500A7453C /* Build configuration list for PBXProject "LCSliderUnlock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184C3AFF2861C46500A7453C;
+			productRefGroup = 184C3B092861C46500A7453C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184C3B072861C46500A7453C /* LCSliderUnlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184C3B062861C46500A7453C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C3B1B2861C46700A7453C /* LaunchScreen.storyboard in Resources */,
+				184C3B182861C46700A7453C /* Assets.xcassets in Resources */,
+				184C3B162861C46500A7453C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109E206BB44F5B65C7E3AA3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCSliderUnlock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5D39C13972057008C220C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCSliderUnlock/Pods-LCSliderUnlock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCSliderUnlock/Pods-LCSliderUnlock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCSliderUnlock/Pods-LCSliderUnlock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184C3B042861C46500A7453C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C3B292861C5C000A7453C /* LCSliderUnlockView.m in Sources */,
+				184C3B132861C46500A7453C /* ViewController.m in Sources */,
+				184C3B2A2861C5C000A7453C /* LCSliderView.m in Sources */,
+				184C3B0D2861C46500A7453C /* AppDelegate.m in Sources */,
+				184C3B1E2861C46700A7453C /* main.m in Sources */,
+				184C3B102861C46500A7453C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184C3B142861C46500A7453C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184C3B152861C46500A7453C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184C3B192861C46700A7453C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184C3B1A2861C46700A7453C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184C3B1F2861C46700A7453C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184C3B202861C46700A7453C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184C3B222861C46700A7453C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185C5354A0B4FFAC25AA1FC6 /* Pods-LCSliderUnlock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LCSliderUnlock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184C3B232861C46700A7453C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590C67E767893840ACCAE49C /* Pods-LCSliderUnlock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LCSliderUnlock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184C3B032861C46500A7453C /* Build configuration list for PBXProject "LCSliderUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184C3B1F2861C46700A7453C /* Debug */,
+				184C3B202861C46700A7453C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184C3B212861C46700A7453C /* Build configuration list for PBXNativeTarget "LCSliderUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184C3B222861C46700A7453C /* Debug */,
+				184C3B232861C46700A7453C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184C3B002861C46500A7453C /* Project object */;
+}
